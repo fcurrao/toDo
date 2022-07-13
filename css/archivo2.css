@@ -1,0 +1,317 @@
+
+ estilos generales
+
+ {
+    font-family 'Montserrat', sans-serif;
+}
+
+h1 {
+    width 2000px;
+}
+
+h3 {
+    color darkslategrey;
+    font-weight 700 !important;
+}
+
+h4 {
+   margin-top  0.5em !important;
+   margin-bottom 0.5em !important;
+   margin-left  0.0em !important;
+   color darkslategrey !important;
+}
+
+h5 {
+    margin-top 10px !important;
+   color darkslategrey !important;
+}
+
+h6 {
+    margin-top 10px !important;
+   color darkslategrey !important;
+   font-size 12px !important;
+}
+
+
+a {
+    color darkslategrey !important;
+    text-decoration underline !important;
+}
+
+
+ahover {
+    color white !important;
+}
+
+p {
+    font-size 11px;
+
+}
+
+
+ ancho pagina
+
+body {
+    width auto;
+    height auto;
+    min-width 1240px;
+}
+
+ casa home icono
+.corazon {
+    width 2em;
+    height auto;
+    color black;
+}
+
+grids para las secciones 
+
+.form-inline {
+ display flex; 
+ flex-direction row;
+
+}
+
+.grid-areas {
+    display grid;
+    grid-template-areas 
+    cabeza cabeza cabeza fila 1 
+    menu productos foto fila 2 
+    servicios servicios lateral fila 3 
+    pie pie pie fila 4 
+    ;
+        background-color lightblue;
+    grid-template-columns 20% auto 15% ;
+     grid-template-rows 0.1fr 1fr 2fr 0.1fr;
+    grid-column-gap 2px;
+    grid-row-gap 2px; 
+}
+
+ Nombro mis areas 
+header {
+    grid-area cabeza;
+    background-color lightblue;
+
+}
+#productos {
+    grid-area productos;
+    background-color lightblue;
+}
+
+#servicios {
+    grid-area servicios;
+    background-color lightblue;
+}
+
+#foto {
+    grid-area foto;
+    background-color lightblue;
+    align-content center;
+}
+
+#lateral {
+      grid-area lateral;
+    background-color lightblue;
+}
+
+nav {
+    grid-area menu;
+    background-color lightblue;
+}
+aside {
+    grid-area lateral;
+    background-color lightblue;
+}
+footer {
+    grid-area pie;
+    background-color pink;
+}
+ Flex dentro de GRids 
+
+.menu-flex {
+    display flex;
+    flex-direction column;
+}
+
+
+
+ GRids para las CARDS 
+.grid-areas2 {
+    display grid;
+    grid-template-areas 
+    parte1 parte1 parte1
+    parte2 parte2 parte2
+    
+    ;
+      margin 0px !important;
+    padding 0px !important;
+     grid-column-gap 0.5px;
+    grid-row-gap 0.5px; 
+}
+ Nombro mis areas 
+parte1 {
+    grid-area parte1;
+    background-color lightblue;
+    margin 0px !important;
+    padding 0px !important;
+
+}
+
+
+
+.barra-navegacion-mio{
+    background-color lightcoral;
+}
+
+/*
+@keyframes efecto{
+        0% {
+transform translateY(0);
+border-radius 60%;
+        }
+
+        50% {
+transform translateY(+300px);
+border-radius 60%;
+        }
+
+        100% {
+transform translateY(0);
+border-radius 0%;
+        }
+
+    }
+*/
+
+
+.animacion{ 
+animation-name efecto; 
+width 180px;
+height 180px;
+align-content stretch;
+transition width 3s, height 2s;
+border-radius 60%;
+animation-iteration-count 2;
+animation-iteration-count infinite;
+animation-duration 4s;
+animation-delay 1s;
+
+}
+
+
+
+.yo2 {
+    width auto !important;
+    height 350px !important;
+}
+
+
+.cuenta {
+    padding-left 20px ;
+    margin-bottom 10px;
+}
+
+.border {
+    padding-left 10px !important;
+    border 0px !important;
+}
+
+.tituloh1 {
+    color white;
+    font-weight 700;
+    padding-left 300px;
+    padding-top  200px;
+}
+
+.textoh3 {
+    width 1000px;
+    height auto;
+    margin-top 20px;
+}
+
+/*
+.fondobanner {
+    background-image url(..imgbanner.jpg);
+    width 1300px;
+    height auto; 
+    min-height 320px;
+
+}
+
+*/
+
+.btn {
+    color white !important;
+    text-decoration  none !important;
+    font-weight 500!important;
+
+}
+
+.btnhover {
+    color darkgray;
+}
+
+#uno {
+font-size 20px;
+color red;
+}
+
+
+
+#tres {
+font-size 30px;
+color darkblue;
+}
+
+
+.trojo {
+    font-size 25px;
+    margin-top 10px !important;
+   color #dd6868; !important;
+       font-weight 500!important;
+}
+
+.logomapa {
+    width 500px;
+    height 350px;
+}
+
+.menu1 {
+    text-shadow 5;
+    font-family fantasy;
+}
+
+
+.card {
+   margin-top  2em;
+   margin-bottom 2em;
+   margin-left  0.2em;
+}
+
+.formu {
+    margin-top  2em;
+   margin-bottom 2em;
+   margin-left  0.5em;
+}
+
+.space-chico {
+   margin-top  .5em;
+   margin-bottom .5em;
+   margin-left  0.2em;
+}
+
+
+.space-alto {
+   padding 1em 0em 1em 2em;
+}
+
+
+.centrado {
+   text-align center;
+   margin-top all;
+   margin-bottom all;
+   margin-left  all;
+   margin-right all;
+}
+
+
